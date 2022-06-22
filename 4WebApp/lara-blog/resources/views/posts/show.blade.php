@@ -22,7 +22,7 @@
     </div>
     <div class="row justify-content-center">
       <div class="col-md-8">
-              <button type="button" class="btn btn-primary" onclick="location.herf='{{ route('comments.create',$post->id) }}'">コメントする</button>
+      <button type="button" class="btn btn-primary" onclick="location.href='{{ route('comments.create',$post->id) }}'">コメントする</button>
       </div>
     </div>
     <div class="row justify-content-center">
